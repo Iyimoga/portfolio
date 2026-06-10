@@ -518,72 +518,6 @@
     border-color: var(--violet);
   }
 
-  /* TESTIMONIALS */
-  .testimonials {
-    background: var(--bg-2);
-    border-top: 1px solid var(--line);
-    border-bottom: 1px solid var(--line);
-  }
-  .quote-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 32px;
-    margin-top: 64px;
-  }
-  .quote {
-    padding: 40px 32px;
-    border: 1px solid var(--line);
-    background: rgba(10, 6, 18, 0.6);
-    position: relative;
-  }
-  .quote::before {
-    content: '"';
-    position: absolute;
-    top: -20px;
-    left: 24px;
-    font-family: var(--serif);
-    font-size: 96px;
-    color: var(--violet);
-    line-height: 1;
-  }
-  .quote-text {
-    font-family: var(--serif);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.55;
-    color: var(--ink);
-    margin-bottom: 24px;
-    font-style: italic;
-  }
-  .quote-author {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-  .quote-avatar {
-    width: 44px; height: 44px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, var(--violet), var(--magenta));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--serif);
-    font-style: italic;
-    font-weight: 400;
-    color: white;
-  }
-  .quote-name {
-    font-size: 14px;
-    color: var(--ink);
-    font-weight: 500;
-  }
-  .quote-role {
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--ink-dim);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-  }
 
   /* WRITING */
   .writing-list {
@@ -776,14 +710,14 @@
   <div class="hero-grid">
     <h1>
       Iyimoga Joseph<br>
-      Nana<span class="italic"></span>
+      Nana
     </h1>
     <div class="hero-sub">
       <p class="hero-bio">
-        Computer Science student & founder of <strong>AceBot</strong>
+        Computer Science student & founder of <strong>AceBot</strong> — a multi-tenant WhatsApp AI platform serving African businesses.
       </p>
       <div class="hero-meta">
-        <span>Currently building</span>
+        <span>● Currently building</span>
         <span>AceBot</span>
       </div>
     </div>
@@ -791,7 +725,7 @@
       <a href="#work" class="btn btn-primary">
         See selected work <span class="arrow">→</span>
       </a>
-      <a href="resume.pdf" download class="btn btn-ghost">
+      <a href="c:\Users\HomePC\Desktop\my_certificates\Iyimoga_Joseph_CV.pdf" download class="btn btn-ghost">
         Download résumé <span class="arrow">↓</span>
       </a>
     </div>
@@ -800,12 +734,12 @@
 
 <!-- ABOUT -->
 <section id="about" class="container reveal">
-  <div class="section-label">About</div>
+  <div class="section-label">01 — About</div>
   <h2 class="section-title">A builder, not <span class="italic">a watcher.</span></h2>
   <div class="about-grid">
     <div class="about-text">
-      <p>I'm a Computer Science student who learned early that the fastest way to understand a system is to ship one. Most of my hours go into AceBot — the WhatsApp AI assistant I founded to help small Nigerian businesses automate customer conversations in English and Hausa.</p>
-      <p>Outside the startup, I study machine learning the way most people consume Netflix — daily, deliberately, and with a notebook open. I care about <strong>frontier AI applied to real African problems</strong>: low-resource languages, mobile-first interfaces, and businesses that operate on margins thinner than a single API call.</p>
+      <p>I'm a Computer Science student who learned early that the fastest way to understand a system is to ship one. Most of my hours go into AceBot — the WhatsApp AI assistant I founded to help small Nigerian and African businesses automate customer conversations in English and Hausa.</p>
+      <p>Outside the startup, I study machine learning, deep learning, and natural language processing the way most people consume Netflix — daily, deliberately, and with a notebook open. I care about <strong>frontier AI applied to real African and worldproblems</strong>: low-resource languages, mobile-first interfaces, and businesses that operate on margins thinner than a single API call.</p>
       <p>I'm looking for an internship where I can contribute to serious AI/ML work and learn from people who've shipped things I haven't.</p>
     </div>
     <div class="about-stats">
@@ -836,13 +770,13 @@
     <h2 class="section-title">Things I've <span class="italic">actually built.</span></h2>
     <div class="project-list">
 
-      <a href="https://github.com/Iyimoga/Chatbot-project" target="_blank" rel="noopener" class="project">
+      <a href="https://impartial-laughter-production.up.railway.app/app/index.html" target="_blank" rel="noopener" class="project">
         <span class="project-num"></span>
         <div class="project-info">
-          <h3>AceBot — <span class="accent">WhatsApp AI for African SMBs</span></h3>
+          <h3>AceBot —<span class="accent">WhatsApp AI for African SMBs</span></h3>
           <div class="project-meta">
             <span>Founder & Engineer</span>
-            <span>Python · FastAPI · Paystack · Meta API</span>
+            <span>Python - FastAPI - Paystack - Meta API</span>
             <span>2025 — Present</span>
           </div>
         </div>
@@ -850,12 +784,12 @@
       </a>
 
       <a href="https://github.com/Iyimoga/Students-Dropout-Predictor" target="_blank" rel="noopener" class="project">
-        <span class="project-num"></span>
+        <span class="project-num">/02</span>
         <div class="project-info">
-          <h3>Student Dropout <span class="accent">Prediction Pipeline</span></h3>
+          <h3>Student Dropout <span class="accent">Predictor</span></h3>
           <div class="project-meta">
             <span>ML Project</span>
-            <span>scikit-learn · Pandas · Feature Engineering</span>
+            <span>scikit-learn - Pandas - Feature Engineering</span>
             <span>2025</span>
           </div>
         </div>
@@ -868,20 +802,20 @@
           <h3>Email Spam <span class="accent">Detector</span></h3>
           <div class="project-meta">
             <span>ML Project</span>
-            <span>NLP · scikit-learn · TF-IDF</span>
+            <span>NLP - scikit-learn - TF-IDF</span>
             <span>2025</span>
           </div>
         </div>
         <div class="project-arrow">→</div>
       </a>
 
-      <a href="https://github.com/Iyimoga/CGPA-calculator" target="_blank" rel="noopener" class="project">
+      <a href="https://github.com/Iyimoga/Add-NBA-Salary-Predictor" target="_blank" rel="noopener" class="project">
         <span class="project-num"></span>
         <div class="project-info">
-          <h3>CGPA <span class="accent">Calculator</span></h3>
+          <h3>NBA Player Salary <span class="accent">Predictor</span></h3>
           <div class="project-meta">
-            <span>Web Tool</span>
-            <span>JavaScript · HTML · CSS</span>
+            <span>ML Project</span>
+            <span>Regression - Random Forest - XGBoost - SVR</span>
             <span>2025</span>
           </div>
         </div>
@@ -919,7 +853,7 @@
       </div>
     </div>
     <div class="skill-card">
-      <h4>AI / ML</h4>
+      <h4>AI / ML /DL / NLP</h4>
       <div class="skill-tags">
         <span class="skill-tag">PyTorch</span>
         <span class="skill-tag">scikit-learn</span>
@@ -957,7 +891,7 @@
     Let's build <span class="italic">something good.</span>
   </h2>
   <p style="color: var(--ink-soft); max-width: 480px; margin: 0 auto; font-size: 17px;">
-    Whether it's an internship, a research collaboration, or just a chat about AI — my inbox is open.
+    Whether it's an internship, a research collaboration, or just a chat about AI in Africa — my inbox is open.
   </p>
 
   <form class="contact-form" id="contactForm">
@@ -986,11 +920,11 @@
     <div class="footer-socials">
       <a href="https://github.com/Iyimoga/" target="_blank" rel="noopener">GitHub ↗</a>
       <a href="https://www.linkedin.com/in/joseph-iyimoga-b40162213" target="_blank" rel="noopener">LinkedIn ↗</a>
-      <a href="https://x.com/IyimogaNana" target="_blank" rel="noopener">X ↗</a>
+      <a href="https://x.com/IyimogaNana" target="_blank" rel="noopener">Twitter ↗</a>
       <a href="mailto:Josephiyimoga05@gmail.com">Email ↗</a>
     </div>
     <div class="footer-meta">
-      © 2026 Iyimoga Joseph Nana — Built with care
+      © 2026 Iyimoga Joseph Nana
     </div>
   </div>
 </footer>
